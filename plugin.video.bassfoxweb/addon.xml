@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.bassfoxweb" name="[COLOR red]B[/COLOR][COLOR white]ass[/COLOR][COLOR red]F[/COLOR][COLOR white]ox[/COLOR][COLOR red]W[/COLOR][COLOR white]eb[/COLOR]" version="1.0" provider-name="@Matubass">
+<addon id="plugin.video.bassfox" name="[COLOR yellow]BassFox[/COLOR]" version="1.0" provider-name="@Nemzzy668">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson"/>
@@ -13,9 +13,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR yellow]ADDON GRATUITO[/COLOR]</summary>
-    <description lang="en">ADDON HERMANO DE BASSFOX ,ESTE SE BASA UNICAMENTE EN PELICULAS ALOJADA EN LAS WEB BASSFOX.ORG [COLOR red]PUEDES DONAR VIA PAYPAL A[/COLOR] [COLOR blue]https://www.paypal.me/bassfox[/COLOR] 
-	ESTE PROYECTO ES GRATUITO  [COLOR white]Matubass[/COLOR]</description>
+    <summary lang="en">Brings You Movies Direct From http://bassfox.org</summary>
+    <description lang="en">http://bassfox.org</description>
     <platform>all</platform>
   </extension>
 </addon>

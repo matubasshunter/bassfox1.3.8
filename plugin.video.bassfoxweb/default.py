@@ -5,11 +5,11 @@ from HTMLParser import HTMLParser
 from datetime import datetime
 
 
-addon_id            = 'plugin.video.bassfoxweb'
+addon_id            = 'plugin.video.bassfox'
 addon               = Addon(addon_id, sys.argv)
 selfAddon           = xbmcaddon.Addon(id=addon_id)
 AddonTitle          = '[COLOR yellow]BassFox[/COLOR]'
-addonPath           = os.path.join(os.path.join(xbmc.translatePath('special://home'), 'addons'),'plugin.video.bassfoxweb')
+addonPath           = os.path.join(os.path.join(xbmc.translatePath('special://home'), 'addons'),'plugin.video.bassfox')
 fanarts             = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'fanart.jpg'))
 fanart              = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'fanart.jpg'))
 icon                = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'icon.png'))
@@ -211,4 +211,4 @@ if mode==None or url==None or len(url)<1: xbmcplugin.endOfDirectory(int(sys.argv
 else: xbmcplugin.endOfDirectory(int(sys.argv[1]),cacheToDisc=True)
 
 # dialog.ok("Debug", str (next_page))
-# dialog.notification(AddonTitle, 'Sponsored By @Matubass', xbmcgui.NOTIFICATION_INFO, 5000)
+# dialog.notification(AddonTitle, 'Sponsored By @Nemzzy668', xbmcgui.NOTIFICATION_INFO, 5000)
