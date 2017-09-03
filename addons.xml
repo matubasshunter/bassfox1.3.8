@@ -33,7 +33,7 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
-<addon id="plugin.video.bassfoxweb" name="[COLOR yellow]BassFox[/COLOR]" version="1.0" provider-name="@matubass">
+<addon id="plugin.video.BassFoxWeb" name="[COLOR red]BassFoxWeb[/COLOR]" version="1.0" provider-name="@Matubass">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson"/>
