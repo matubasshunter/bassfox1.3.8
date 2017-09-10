@@ -204,7 +204,7 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.04" provider-name="Matubass,Bassfox">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.05" provider-name="Matubass,Bassfox">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
